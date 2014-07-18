@@ -1,5 +1,3 @@
-var items = document.getElementsByClassName('listItem');
-
 function dragStart(e) {
   e.dataTransfer.setData('text/plain', e.target.className);
 }
